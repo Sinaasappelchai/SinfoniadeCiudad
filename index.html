@@ -19,8 +19,8 @@ header span{font-weight:400;margin-left:8px}
 .sub{margin:14px 0 0;color:var(--fg);opacity:.85}
 main{flex:1;padding:16px 0}
 nav{display:flex;flex-direction:column;align-items:flex-end;gap:clamp(24px,7vw,70px);margin-top:20px}
-nav a{font-size:clamp(44px,9vw,84px);font-weight:700;letter-spacing:-.04em;line-height:1;text-decoration:none;color:transparent;-webkit-text-stroke:1.5px var(--fg);transition:-webkit-text-stroke-color .15s}
-nav a:hover{color:#fff}
+nav a{font-size:clamp(44px,9vw,84px);font-weight:700;letter-spacing:-.04em;line-height:1;text-decoration:none;color:transparent;-webkit-text-stroke:1.5px var(--fg);transition:color .15s,-webkit-text-stroke-color .15s
+nav a:hover{color:#fff;-webkit-text-stroke-color:#fff}
 nav:hover a:not(:hover){opacity:.25}
 section{display:none}section.on{display:block}
 h1.page{font-size:clamp(36px,7vw,64px);letter-spacing:-.04em;text-align:right;margin:0 0 24px;color:transparent;-webkit-text-stroke:1.5px var(--fg)}
